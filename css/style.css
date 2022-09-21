@@ -109,6 +109,16 @@ footer  {
 .main-images {
     position: relative;
 }
+.img-hover {
+    display: none;
+    width: 100%;
+}
+.box-images:hover .img-hover {
+    display: block;
+}
+.box-images:hover .img-default {
+    display: none;
+}
 .sales {
     position: absolute;
     bottom: 100px;
