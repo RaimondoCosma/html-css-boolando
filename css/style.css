@@ -7,3 +7,71 @@
     box-sizing: border-box;
 }
 
+/* ----------
+    COMMON
+---------- */
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row li a {
+    color: inherit;
+}
+
+/* ----------
+    TYPOGRAPHY  
+---------- */
+header {
+    color: white;
+    font-weight: bold;
+}
+.col-logo a {
+    text-decoration: none;
+    color: inherit;
+}
+.col-logo a small {
+    font-size: 20px;
+}
+
+/* ----------
+    HEADER  
+---------- */
+.background-header {
+    background-color: #ff6900;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: #9e9e9e 0 2px;
+}
+.nav li a {
+    text-decoration: none;
+}
+.col-type, .col-icons {
+    width: 15%;
+}
+.col-type {
+    justify-content: space-between;
+}
+.col-icons {
+    justify-content: flex-end;
+}
+.col-icons li a i {
+    margin-left: 10px;
+}
+.col-logo {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.col-logo a img{
+    display: inline-block;
+    height: 32px;
+}
