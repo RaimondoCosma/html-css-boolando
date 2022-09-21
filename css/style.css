@@ -37,12 +37,18 @@ header {
     text-decoration: none;
     color: inherit;
 }
+.col-type li a, .col-icons li a i {
+    font-size: 18px;
+}
 .col-logo a small {
-    font-size: 20px;
+    font-size: 24px;
 }
 .main-images {
     color: white;
     font-weight: bold;
+}
+footer  {
+    color: white;
 }
 
 /* ----------
@@ -81,6 +87,7 @@ header {
 .col-logo a img{
     display: inline-block;
     height: 32px;
+    margin-right: 10px;
 }
 
 /* ----------
@@ -116,6 +123,13 @@ header {
     padding: 10px;
     background-color: green;
 }
+.eco-singolo {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    padding: 10px;
+    background-color: green;
+}
 .like {
     position: absolute;
     bottom: 600px;
@@ -129,4 +143,26 @@ header {
 }
 .images-description .line-through {
     text-decoration: line-through;
+}
+
+/* ----------
+    FOOTER  
+---------- */
+.background-footer {
+    background-color: black;
+}
+.nav-footer {
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.row ul li {
+    list-style: none;
+    font-size: 10px;
+    margin: 10px 5px 0 0;
+}
+.row ul li a{
+    text-decoration: none;
+}
+.contact ul li {
+    font-size: 20px;
 }
