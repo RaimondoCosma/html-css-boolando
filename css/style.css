@@ -41,7 +41,8 @@ header {
     font-size: 18px;
 }
 .col-type li a:hover, .col-icons li a i:hover {
-    font-size: 22px;
+    transform: scale(1.2);
+    color: black;
 }
 .main-images {
     color: white;
@@ -88,7 +89,7 @@ footer  {
     margin-right: 10px;
 }
 .col-logo a img:hover {
-    height: 36px;
+    transform: scale(1.2);
 }
 
 
@@ -105,7 +106,7 @@ footer  {
     width: calc(33.3333% - 20px);
     margin: 20px 10px;
 }
-.row-main .box img {
+.row-main .box .main-images .box-images img {
     width: 100%;
 }
 .main-images {
@@ -116,7 +117,7 @@ footer  {
     width: 100%;
 }
 .box-images:hover .img-hover {
-    display: block;
+    display: inline-block;
 }
 .box-images:hover .img-default {
     display: none;
@@ -176,7 +177,7 @@ footer  {
     margin: 10px 5px 0 0;
 }
 .background-footer .row ul li:hover {
-    font-size: 14px;
+    transform: scale(1.1);
 }
 .background-footer .row ul li a{
     text-decoration: none;
@@ -185,5 +186,5 @@ footer  {
     font-size: 20px;
 }
 .contact ul li a i:hover {
-    font-size: 28px
+    transform: scale(1.2);
 }
