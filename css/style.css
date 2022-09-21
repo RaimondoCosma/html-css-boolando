@@ -148,6 +148,9 @@ footer  {
     color: black;
     background-color: white;
 }
+.main-images:hover .like {
+    color: red;
+}
 .images-description strong {
     color: red;
 }
