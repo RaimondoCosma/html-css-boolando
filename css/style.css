@@ -40,8 +40,8 @@ header {
 .col-type li a, .col-icons li a i {
     font-size: 18px;
 }
-.col-logo a small {
-    font-size: 24px;
+.col-type li a:hover, .col-icons li a i:hover {
+    font-size: 22px;
 }
 .main-images {
     color: white;
@@ -84,10 +84,13 @@ footer  {
     padding: 20px 0;
 }
 .col-logo a img{
-    display: inline-block;
     height: 32px;
     margin-right: 10px;
 }
+.col-logo a img:hover {
+    height: 36px;
+}
+
 
 /* ----------
     MAIN  
@@ -172,9 +175,15 @@ footer  {
     font-size: 10px;
     margin: 10px 5px 0 0;
 }
+.background-footer .row ul li:hover {
+    font-size: 14px;
+}
 .background-footer .row ul li a{
     text-decoration: none;
 }
-.contact ul li {
+.contact ul li a i {
     font-size: 20px;
+}
+.contact ul li a i:hover {
+    font-size: 28px
 }
