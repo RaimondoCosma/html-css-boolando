@@ -41,7 +41,6 @@ header {
     font-size: 18px;
 }
 .col-type li a:hover, .col-icons li a i:hover {
-    transform: scale(1.2);
     color: black;
 }
 .main-images {
@@ -124,28 +123,28 @@ footer  {
 }
 .sales {
     position: absolute;
-    bottom: 100px;
+    bottom: 15%;
     left: 0;
     padding: 10px;
     background-color: red;
 }
 .eco {
     position: absolute;
-    bottom: 100px;
+    bottom: 15%;
     left: 60px;
     padding: 10px;
     background-color: green;
 }
 .eco-singolo {
     position: absolute;
-    bottom: 100px;
+    bottom: 15%;
     left: 0;
     padding: 10px;
     background-color: green;
 }
 .like {
     position: absolute;
-    bottom: 600px;
+    top: 2%;
     right: 0;
     padding: 15px;
     color: black;
@@ -178,6 +177,7 @@ footer  {
 }
 .background-footer .row ul li:hover {
     transform: scale(1.1);
+    color: red;
 }
 .background-footer .row ul li a{
     text-decoration: none;
@@ -187,4 +187,5 @@ footer  {
 }
 .contact ul li a i:hover {
     transform: scale(1.2);
+    color: red;
 }
